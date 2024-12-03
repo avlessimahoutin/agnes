@@ -1,0 +1,72 @@
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+        padding-left: 5%;
+        background-color: white;
+    }
+
+    .menuo {
+        border-style: none;
+        width: 20%;
+        height: auto;
+        padding: 25px;
+        margin-left: 1%;
+        background-color: rgb(72, 28, 231);
+    }
+
+    .corpso {
+        border-style: none;
+        width: 80%;
+        height: 100%;
+        padding: 25px;
+        background-color: white;
+
+    }
+
+    .portable {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        background-color: white;
+
+    }
+
+    .menup {
+        border-style: none;
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        position: fixed;
+        top: 10px;
+    }
+
+    .corpsp {
+        border-style: none;
+        width: 100%;
+        height: auto;
+        background-color: WHITE;
+        ;
+
+    }
+
+    .menu0 {
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        color: blue;
+    }
+
+
+
+
+
+    .ordinateur {
+        visibility: hidden;
+    }
+
+}
